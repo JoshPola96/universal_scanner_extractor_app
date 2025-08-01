@@ -1,0 +1,318 @@
+2025-08-01 16:07:05,425 - INFO - Starting get_llm_model function.
+2025-08-01 16:07:05,426 - INFO - Gemini model initialized successfully.
+2025-08-01 16:07:05,426 - INFO - Returning initialized Gemini model.
+2025-08-01 16:07:06,016 - INFO - Attempting to initialize PaddleOCR model...
+2025-08-01 16:07:32,004 - ERROR - An unexpected error occurred while processing batch1-0001.jpg: 
+Traceback (most recent call last):
+  File "E:\personal\projects\document_scanner_extractor_app\app.py", line 57, in process_single_image
+    progress_callback(f"Performing OCR on {original_file_name}...", 20)
+  File "E:\personal\projects\document_scanner_extractor_app\app.py", line 150, in <lambda>
+    lambda text, step: update_progress_and_status(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\personal\projects\document_scanner_extractor_app\app.py", line 122, in update_progress_and_status
+    progress_bar.progress(step)
+  File "E:\personal\projects\document_scanner_extractor_app\.venv\Lib\site-packages\streamlit\elements\progress.py", line 169, in progress
+    return self.dg._enqueue("progress", progress_proto, layout_config=layout_config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\personal\projects\document_scanner_extractor_app\.venv\Lib\site-packages\streamlit\delta_generator.py", line 501, in _enqueue
+    _enqueue_message(msg)
+  File "E:\personal\projects\document_scanner_extractor_app\.venv\Lib\site-packages\streamlit\runtime\scriptrunner_utils\script_run_context.py", line 292, in enqueue_message
+    raise NoSessionContext()
+streamlit.errors.NoSessionContext
+2025-08-01 16:08:47,584 - INFO - Starting get_llm_model function.
+2025-08-01 16:08:47,585 - INFO - Gemini model initialized successfully.
+2025-08-01 16:08:47,676 - INFO - Returning initialized Gemini model.
+2025-08-01 16:08:48,144 - INFO - Attempting to initialize PaddleOCR model...
+2025-08-01 16:10:12,083 - ERROR - An unexpected error occurred while processing batch1-0001.jpg: 
+Traceback (most recent call last):
+  File "E:\personal\projects\document_scanner_extractor_app\app.py", line 57, in process_single_image
+    progress_callback(f"Performing OCR on {original_file_name}...", 20)
+  File "E:\personal\projects\document_scanner_extractor_app\app.py", line 149, in <lambda>
+    lambda text, step: update_progress_and_status(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\personal\projects\document_scanner_extractor_app\app.py", line 122, in update_progress_and_status
+    progress_bar.progress(step)
+  File "E:\personal\projects\document_scanner_extractor_app\.venv\Lib\site-packages\streamlit\elements\progress.py", line 169, in progress
+    return self.dg._enqueue("progress", progress_proto, layout_config=layout_config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\personal\projects\document_scanner_extractor_app\.venv\Lib\site-packages\streamlit\delta_generator.py", line 501, in _enqueue
+    _enqueue_message(msg)
+  File "E:\personal\projects\document_scanner_extractor_app\.venv\Lib\site-packages\streamlit\runtime\scriptrunner_utils\script_run_context.py", line 292, in enqueue_message
+    raise NoSessionContext()
+streamlit.errors.NoSessionContext
+2025-08-01 16:14:06,390 - INFO - Starting get_llm_model function.
+2025-08-01 16:14:06,390 - INFO - Gemini model initialized successfully.
+2025-08-01 16:14:06,390 - INFO - Returning initialized Gemini model.
+2025-08-01 16:14:06,848 - INFO - Attempting to initialize PaddleOCR model...
+2025-08-01 16:14:53,714 - INFO - Starting get_llm_model function.
+2025-08-01 16:14:53,715 - INFO - Returning initialized Gemini model.
+2025-08-01 16:14:59,303 - INFO - Starting get_llm_model function.
+2025-08-01 16:14:59,304 - INFO - Returning initialized Gemini model.
+2025-08-01 16:14:59,307 - INFO - Starting processing for batch1-0001.jpg
+2025-08-01 16:14:59,308 - ERROR - An error occurred during async processing: st.session_state has no attribute "log_messages". Did you forget to initialize it? More info: https://docs.streamlit.io/develop/concepts/architecture/session-state#initialization
+2025-08-01 16:14:59,309 - INFO - Processing complete! Took 0.00 seconds.
+2025-08-01 16:15:48,826 - INFO - Starting get_llm_model function.
+2025-08-01 16:15:48,826 - INFO - Returning initialized Gemini model.
+2025-08-01 16:15:55,816 - INFO - Starting get_llm_model function.
+2025-08-01 16:15:55,816 - INFO - Returning initialized Gemini model.
+2025-08-01 16:15:55,819 - INFO - Starting processing for batch1-0001.jpg
+2025-08-01 16:15:55,821 - ERROR - An error occurred during async processing: st.session_state has no attribute "log_messages". Did you forget to initialize it? More info: https://docs.streamlit.io/develop/concepts/architecture/session-state#initialization
+2025-08-01 16:15:55,821 - INFO - Processing complete! Took 0.00 seconds.
+2025-08-01 16:16:21,079 - INFO - Starting get_llm_model function.
+2025-08-01 16:16:21,080 - INFO - Gemini model initialized successfully.
+2025-08-01 16:16:21,080 - INFO - Returning initialized Gemini model.
+2025-08-01 16:16:21,521 - INFO - Attempting to initialize PaddleOCR model...
+2025-08-01 16:18:10,839 - INFO - Starting get_llm_model function.
+2025-08-01 16:18:10,839 - INFO - Returning initialized Gemini model.
+2025-08-01 16:18:11,936 - INFO - Starting get_llm_model function.
+2025-08-01 16:18:11,936 - INFO - Returning initialized Gemini model.
+2025-08-01 16:18:11,939 - INFO - Starting processing for batch1-0001.jpg
+2025-08-01 16:18:11,940 - ERROR - An error occurred during async processing: st.session_state has no attribute "log_messages". Did you forget to initialize it? More info: https://docs.streamlit.io/develop/concepts/architecture/session-state#initialization
+2025-08-01 16:18:11,940 - INFO - Processing complete! Took 0.00 seconds.
+2025-08-01 16:21:02,429 - INFO - Starting get_llm_model function.
+2025-08-01 16:21:02,430 - INFO - Gemini model initialized successfully.
+2025-08-01 16:21:02,430 - INFO - Returning initialized Gemini model.
+2025-08-01 16:21:02,892 - INFO - Attempting to initialize PaddleOCR model...
+2025-08-01 16:21:20,235 - INFO - Starting get_llm_model function.
+2025-08-01 16:21:20,235 - INFO - Returning initialized Gemini model.
+2025-08-01 16:21:21,215 - INFO - Starting get_llm_model function.
+2025-08-01 16:21:21,216 - INFO - Returning initialized Gemini model.
+2025-08-01 16:21:21,220 - INFO - Starting processing for Aadhar.jpg
+2025-08-01 16:21:21,220 - INFO - Step 1/5: Performing OCR on Aadhar.jpg...
+2025-08-01 16:21:21,221 - INFO - Starting perform_ocr_on_image.
+2025-08-01 16:21:21,222 - ERROR - An unexpected error occurred while processing Aadhar.jpg: st.session_state has no attribute "paddle_ocr_model". Did you forget to initialize it? More info: https://docs.streamlit.io/develop/concepts/architecture/session-state#initialization
+Traceback (most recent call last):
+  File "E:\personal\projects\document_scanner_extractor_app\.venv\Lib\site-packages\streamlit\runtime\state\session_state.py", line 469, in __getitem__
+    return self._getitem(widget_id, key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\personal\projects\document_scanner_extractor_app\.venv\Lib\site-packages\streamlit\runtime\state\session_state.py", line 517, in _getitem
+    raise KeyError
+KeyError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\personal\projects\document_scanner_extractor_app\.venv\Lib\site-packages\streamlit\runtime\state\session_state_proxy.py", line 130, in __getattr__
+    return self[key]
+           ~~~~^^^^^
+  File "E:\personal\projects\document_scanner_extractor_app\.venv\Lib\site-packages\streamlit\runtime\state\session_state_proxy.py", line 101, in __getitem__
+    return get_session_state()[key]
+           ~~~~~~~~~~~~~~~~~~~^^^^^
+  File "E:\personal\projects\document_scanner_extractor_app\.venv\Lib\site-packages\streamlit\runtime\state\safe_session_state.py", line 104, in __getitem__
+    return self._state[key]
+           ~~~~~~~~~~~^^^^^
+  File "E:\personal\projects\document_scanner_extractor_app\.venv\Lib\site-packages\streamlit\runtime\state\session_state.py", line 471, in __getitem__
+    raise KeyError(_missing_key_error_message(key))
+KeyError: 'st.session_state has no key "paddle_ocr_model". Did you forget to initialize it? More info: https://docs.streamlit.io/develop/concepts/architecture/session-state#initialization'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\personal\projects\document_scanner_extractor_app\app.py", line 71, in process_single_image
+    deskewed_image_np, ocr_results, ocr_status, ocr_error = perform_ocr_on_image(image_bytes)
+                                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\personal\projects\document_scanner_extractor_app\modules\ocr_utils.py", line 156, in perform_ocr_on_image
+    ocr = get_paddle_ocr_model()
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\personal\projects\document_scanner_extractor_app\modules\ocr_utils.py", line 23, in get_paddle_ocr_model
+    if st.session_state.paddle_ocr_model is None:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\personal\projects\document_scanner_extractor_app\.venv\Lib\site-packages\streamlit\runtime\state\session_state_proxy.py", line 132, in __getattr__
+    raise AttributeError(_missing_attr_error_message(key))
+AttributeError: st.session_state has no attribute "paddle_ocr_model". Did you forget to initialize it? More info: https://docs.streamlit.io/develop/concepts/architecture/session-state#initialization
+2025-08-01 16:21:21,228 - INFO - Processing complete! Took 0.01 seconds.
+2025-08-01 16:30:25,636 - INFO - Starting get_llm_model function.
+2025-08-01 16:30:25,637 - INFO - Gemini model initialized successfully.
+2025-08-01 16:30:25,637 - INFO - Returning initialized Gemini model.
+2025-08-01 16:30:40,026 - INFO - Starting processing for Aadhar.jpg
+2025-08-01 16:30:40,027 - INFO - Step 1/5: Performing OCR on Aadhar.jpg...
+2025-08-01 16:30:40,027 - ERROR - An unexpected error occurred while processing Aadhar.jpg: perform_ocr_on_image() takes 1 positional argument but 2 were given
+Traceback (most recent call last):
+  File "E:\personal\projects\document_scanner_extractor_app\app.py", line 81, in process_single_image
+    deskewed_image_np, ocr_results, ocr_status, ocr_error = perform_ocr_on_image(paddle_ocr_model, image_bytes)
+                                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: perform_ocr_on_image() takes 1 positional argument but 2 were given
+2025-08-01 16:30:40,029 - INFO - Processing complete! Took 0.00 seconds.
+2025-08-01 23:01:38,306 - INFO - Initializing models...
+2025-08-01 23:01:38,307 - INFO - Gemini model initialized successfully
+2025-08-01 23:01:38,307 - INFO - Initializing PaddleOCR model...
+2025-08-01 23:01:38,307 - ERROR - Error initializing PaddleOCR: Unknown argument: use_gpu
+Traceback (most recent call last):
+  File "E:\personal\projects\document_scanner_extractor_app\modules\ocr_utils.py", line 21, in get_paddle_ocr_model
+    model = PaddleOCR(
+            ^^^^^^^^^^
+  File "E:\personal\projects\document_scanner_extractor_app\.venv\Lib\site-packages\paddleocr\_pipelines\ocr.py", line 161, in __init__
+    super().__init__(**base_params)
+  File "E:\personal\projects\document_scanner_extractor_app\.venv\Lib\site-packages\paddleocr\_pipelines\base.py", line 62, in __init__
+    self._common_args = parse_common_args(
+                        ^^^^^^^^^^^^^^^^^^
+  File "E:\personal\projects\document_scanner_extractor_app\.venv\Lib\site-packages\paddleocr\_common_args.py", line 43, in parse_common_args
+    raise ValueError(f"Unknown argument: {name}")
+ValueError: Unknown argument: use_gpu
+2025-08-01 23:01:38,309 - INFO - Models initialized successfully
+2025-08-01 23:03:25,063 - INFO - Initializing models...
+2025-08-01 23:03:25,063 - INFO - Gemini model initialized successfully
+2025-08-01 23:03:25,063 - INFO - Initializing PaddleOCR model...
+2025-08-01 23:04:00,465 - ERROR - Error during OCR execution: PaddleOCR.predict() got an unexpected keyword argument 'cls'
+Traceback (most recent call last):
+  File "E:\personal\projects\document_scanner_extractor_app\modules\ocr_utils.py", line 201, in perform_ocr_on_image
+    result = ocr_engine.ocr(processed_img_bgr, cls=False)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\personal\projects\document_scanner_extractor_app\.venv\Lib\site-packages\typing_extensions.py", line 2956, in wrapper
+    return arg(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\personal\projects\document_scanner_extractor_app\.venv\Lib\site-packages\paddleocr\_pipelines\ocr.py", line 225, in ocr
+    return self.predict(img, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: PaddleOCR.predict() got an unexpected keyword argument 'cls'
+2025-08-01 23:04:29,767 - INFO - Initializing models...
+2025-08-01 23:04:29,768 - INFO - Gemini model initialized successfully
+2025-08-01 23:04:29,768 - INFO - Initializing PaddleOCR model...
+2025-08-01 23:07:30,539 - ERROR - Error during OCR execution: Unknown exception
+Traceback (most recent call last):
+  File "E:\personal\projects\document_scanner_extractor_app\modules\ocr_utils.py", line 201, in perform_ocr_on_image
+    result = ocr_engine.ocr(processed_img_bgr)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\personal\projects\document_scanner_extractor_app\.venv\Lib\site-packages\typing_extensions.py", line 2956, in wrapper
+    return arg(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\personal\projects\document_scanner_extractor_app\.venv\Lib\site-packages\paddleocr\_pipelines\ocr.py", line 225, in ocr
+    return self.predict(img, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\personal\projects\document_scanner_extractor_app\.venv\Lib\site-packages\paddleocr\_pipelines\ocr.py", line 208, in predict
+    return list(
+           ^^^^^
+  File "E:\personal\projects\document_scanner_extractor_app\.venv\Lib\site-packages\paddlex\inference\pipelines\_parallel.py", line 129, in predict
+    yield from self._pipeline.predict(
+  File "E:\personal\projects\document_scanner_extractor_app\.venv\Lib\site-packages\paddlex\inference\pipelines\ocr\pipeline.py", line 350, in predict
+    det_results = list(
+                  ^^^^^
+  File "E:\personal\projects\document_scanner_extractor_app\.venv\Lib\site-packages\paddlex\inference\models\base\predictor\base_predictor.py", line 211, in __call__
+    yield from self.apply(input, **kwargs)
+  File "E:\personal\projects\document_scanner_extractor_app\.venv\Lib\site-packages\paddlex\inference\models\base\predictor\base_predictor.py", line 267, in apply
+    prediction = self.process(batch_data, **kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\personal\projects\document_scanner_extractor_app\.venv\Lib\site-packages\paddlex\inference\models\text_detection\predictor.py", line 105, in process
+    batch_preds = self.infer(x=x)
+                  ^^^^^^^^^^^^^^^
+  File "E:\personal\projects\document_scanner_extractor_app\.venv\Lib\site-packages\paddlex\inference\models\common\static_infer.py", line 287, in __call__
+    pred = self.infer(x)
+           ^^^^^^^^^^^^^
+  File "E:\personal\projects\document_scanner_extractor_app\.venv\Lib\site-packages\paddlex\inference\models\common\static_infer.py", line 252, in __call__
+    self.predictor.run()
+RuntimeError: Unknown exception
+2025-08-01 23:12:02,818 - INFO - Initializing models...
+2025-08-01 23:12:02,819 - INFO - Gemini model initialized successfully
+2025-08-01 23:12:02,819 - INFO - Initializing PaddleOCR model...
+2025-08-01 23:14:49,698 - INFO - Initializing models...
+2025-08-01 23:14:49,699 - INFO - Gemini model initialized successfully
+2025-08-01 23:14:49,699 - INFO - Initializing PaddleOCR model...
+2025-08-01 23:14:49,703 - ERROR - Error initializing PaddleOCR: No module named 'paddle'
+Traceback (most recent call last):
+  File "E:\personal\projects\document_scanner_extractor_app\modules\ocr_utils.py", line 21, in get_paddle_ocr_model
+    model = PaddleOCR(
+            ^^^^^^^^^^
+  File "E:\personal\projects\document_scanner_extractor_app\.venv\Lib\site-packages\paddleocr\_pipelines\ocr.py", line 161, in __init__
+    super().__init__(**base_params)
+  File "E:\personal\projects\document_scanner_extractor_app\.venv\Lib\site-packages\paddleocr\_pipelines\base.py", line 66, in __init__
+    self.paddlex_pipeline = self._create_paddlex_pipeline()
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\personal\projects\document_scanner_extractor_app\.venv\Lib\site-packages\paddleocr\_pipelines\base.py", line 99, in _create_paddlex_pipeline
+    kwargs = prepare_common_init_args(None, self._common_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\personal\projects\document_scanner_extractor_app\.venv\Lib\site-packages\paddleocr\_common_args.py", line 61, in prepare_common_init_args
+    device = get_default_device()
+             ^^^^^^^^^^^^^^^^^^^^
+  File "E:\personal\projects\document_scanner_extractor_app\.venv\Lib\site-packages\paddlex\utils\device.py", line 42, in get_default_device
+    import paddle
+ModuleNotFoundError: No module named 'paddle'
+2025-08-01 23:14:49,705 - INFO - Models initialized successfully
+2025-08-01 23:17:44,717 - INFO - Initializing models...
+2025-08-01 23:17:44,718 - INFO - Gemini model initialized successfully
+2025-08-01 23:17:44,718 - INFO - Initializing PaddleOCR model...
+2025-08-01 23:21:17,489 - ERROR - Error during OCR execution: Unknown exception
+Traceback (most recent call last):
+  File "E:\personal\projects\document_scanner_extractor_app\modules\ocr_utils.py", line 205, in perform_ocr_on_image
+    result = ocr_engine.ocr(processed_img_bgr)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "e:\personal\projects\document_scanner_extractor_app\.venv\Lib\site-packages\typing_extensions.py", line 2956, in wrapper
+    return arg(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "e:\personal\projects\document_scanner_extractor_app\.venv\Lib\site-packages\paddleocr\_pipelines\ocr.py", line 225, in ocr
+    return self.predict(img, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "e:\personal\projects\document_scanner_extractor_app\.venv\Lib\site-packages\paddleocr\_pipelines\ocr.py", line 208, in predict
+    return list(
+           ^^^^^
+  File "e:\personal\projects\document_scanner_extractor_app\.venv\Lib\site-packages\paddlex\inference\pipelines\_parallel.py", line 129, in predict
+    yield from self._pipeline.predict(
+  File "e:\personal\projects\document_scanner_extractor_app\.venv\Lib\site-packages\paddlex\inference\pipelines\ocr\pipeline.py", line 350, in predict
+    det_results = list(
+                  ^^^^^
+  File "e:\personal\projects\document_scanner_extractor_app\.venv\Lib\site-packages\paddlex\inference\models\base\predictor\base_predictor.py", line 211, in __call__
+    yield from self.apply(input, **kwargs)
+  File "e:\personal\projects\document_scanner_extractor_app\.venv\Lib\site-packages\paddlex\inference\models\base\predictor\base_predictor.py", line 267, in apply
+    prediction = self.process(batch_data, **kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "e:\personal\projects\document_scanner_extractor_app\.venv\Lib\site-packages\paddlex\inference\models\text_detection\predictor.py", line 105, in process
+    batch_preds = self.infer(x=x)
+                  ^^^^^^^^^^^^^^^
+  File "e:\personal\projects\document_scanner_extractor_app\.venv\Lib\site-packages\paddlex\inference\models\common\static_infer.py", line 287, in __call__
+    pred = self.infer(x)
+           ^^^^^^^^^^^^^
+  File "e:\personal\projects\document_scanner_extractor_app\.venv\Lib\site-packages\paddlex\inference\models\common\static_infer.py", line 252, in __call__
+    self.predictor.run()
+RuntimeError: Unknown exception
+2025-08-01 23:21:48,699 - INFO - Initializing models...
+2025-08-01 23:21:48,699 - INFO - Gemini model initialized successfully
+2025-08-01 23:21:48,699 - INFO - Initializing PaddleOCR model...
+2025-08-01 23:31:32,001 - INFO - --- Processing: Aadhar.jpg ---
+2025-08-01 23:31:32,003 - INFO - Attempting to initialize PaddleOCR model...
+2025-08-01 23:31:39,689 - ERROR - An unexpected error occurred during OCR: PaddleOCR.predict() got an unexpected keyword argument 'cls'
+Traceback (most recent call last):
+  File "E:\personal\projects\document_scanner_extractor_app\modules\ocr_utils.py", line 76, in perform_ocr_on_image
+    ocr_results = ocr_model.ocr(preprocessed_image, cls=True)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "e:\personal\projects\document_scanner_extractor_app\.venv\Lib\site-packages\typing_extensions.py", line 2956, in wrapper
+    return arg(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "e:\personal\projects\document_scanner_extractor_app\.venv\Lib\site-packages\paddleocr\_pipelines\ocr.py", line 225, in ocr
+    return self.predict(img, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: PaddleOCR.predict() got an unexpected keyword argument 'cls'
+2025-08-01 23:32:46,713 - ERROR - An unexpected error occurred during OCR: PaddleOCR.predict() got an unexpected keyword argument 'cls'
+Traceback (most recent call last):
+  File "E:\personal\projects\document_scanner_extractor_app\modules\ocr_utils.py", line 76, in perform_ocr_on_image
+    ocr_results = ocr_model.ocr(preprocessed_image, cls=True)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "e:\personal\projects\document_scanner_extractor_app\.venv\Lib\site-packages\typing_extensions.py", line 2956, in wrapper
+    return arg(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "e:\personal\projects\document_scanner_extractor_app\.venv\Lib\site-packages\paddleocr\_pipelines\ocr.py", line 225, in ocr
+    return self.predict(img, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: PaddleOCR.predict() got an unexpected keyword argument 'cls'
+2025-08-01 23:32:46,851 - ERROR - An unexpected error occurred during OCR: PaddleOCR.predict() got an unexpected keyword argument 'cls'
+Traceback (most recent call last):
+  File "E:\personal\projects\document_scanner_extractor_app\modules\ocr_utils.py", line 76, in perform_ocr_on_image
+    ocr_results = ocr_model.ocr(preprocessed_image, cls=True)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "e:\personal\projects\document_scanner_extractor_app\.venv\Lib\site-packages\typing_extensions.py", line 2956, in wrapper
+    return arg(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "e:\personal\projects\document_scanner_extractor_app\.venv\Lib\site-packages\paddleocr\_pipelines\ocr.py", line 225, in ocr
+    return self.predict(img, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: PaddleOCR.predict() got an unexpected keyword argument 'cls'
+2025-08-01 23:37:46,225 - INFO - Handling uploaded file: Aadhar.jpg
+2025-08-01 23:37:46,225 - INFO - Starting batch processing to infer schemas.
+2025-08-01 23:37:46,343 - INFO - Handling uploaded file: Aadhar.jpg
+2025-08-01 23:37:46,343 - INFO - Starting batch processing to infer schemas.
+2025-08-01 23:42:23,195 - INFO - Handling uploaded file: Aadhar.jpg
+2025-08-01 23:42:23,196 - INFO - Starting batch processing to infer schemas.
+2025-08-01 23:43:55,434 - INFO - Handling uploaded file: Aadhar.jpg
+2025-08-01 23:43:55,435 - INFO - Starting batch processing to infer schemas.
+2025-08-01 23:43:55,436 - ERROR - Aadhar.jpg generated an exception during schema inference: st.session_state has no attribute "log_messages". Did you forget to initialize it? More info: https://docs.streamlit.io/develop/concepts/architecture/session-state#initialization
+2025-08-01 23:44:07,442 - INFO - Handling uploaded file: Aadhar.jpg
+2025-08-01 23:44:07,442 - INFO - Starting batch processing to infer schemas.
+2025-08-01 23:44:07,443 - ERROR - Aadhar.jpg generated an exception during schema inference: st.session_state has no attribute "log_messages". Did you forget to initialize it? More info: https://docs.streamlit.io/develop/concepts/architecture/session-state#initialization

@@ -1,0 +1,11 @@
+# requirements.txt
+streamlit
+google-generativeai
+pandas
+Pillow
+opencv-python-headless
+paddlepaddle
+paddleocr
+PyMuPDF
+opencv-python
+psutil
