@@ -4,6 +4,7 @@ import streamlit as st
 import google.generativeai as genai
 import json
 import time
+import os
 
 # Set this to True to enable detailed terminal logging for debugging LLM output
 DEBUG_LLM_LOGGING = True
@@ -13,7 +14,13 @@ def get_llm_model():
         print("Starting get_llm_model function.")
     if "llm_model" not in st.session_state or st.session_state.llm_model is None:
         try:
-            genai.configure(api_key=st.secrets["GOOGLE_API_KEY"])
+            api_key = os.environ.get("GOOGLE_API_KEY") # Check environment variables first
+        
+            if not api_key:
+                # Fallback to Streamlit secrets if not found in environment variables
+                if "GOOGLE_API_KEY" in st.secrets:
+                    api_key = st.secrets["GOOGLE_API_KEY"]
+                    
             st.session_state.llm_model = genai.GenerativeModel('gemma-3-27b-it')
             if DEBUG_LLM_LOGGING:
                 print("Gemini model initialized successfully.")
